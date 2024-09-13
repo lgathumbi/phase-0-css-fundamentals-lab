@@ -1,5 +1,35 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+  background: #fff; /* Set<body>background to #fff */
+  text-align: center; /* Center header content */
 }
+nav a {
+  text-decoration: #333;
+  display: inline-block;  /* Center the nav links */
+  padding: 10px; /* Padding for nav links */
+  background-color: #666; /* Grey background */
+  text-decoration-line: underline;
+}
+#featured-property  img {
+  width: 900px; /* Set a fixed width for img */
+  height: 100%;
+  margin: 0;  /* Center the image */
+} 
+#featured-property  figcaption {
+  text-align: center; /* Center the caption */
+}
+#featured-property p {
+  text-align: center; /* Center the text */
+  width: 800px; /* Set a fixed width for text block */
+  margin: 20px auto; /* Center the text block with vertical space */
+}
+#details div {
+  float: left;
+  width: 25%; /* Each div takes up 25% of the row */
+  background-color: red; /* Background color for divs */
+  text-align: center; /* Center text within each div */
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
